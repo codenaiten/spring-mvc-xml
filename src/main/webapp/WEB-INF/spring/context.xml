@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns="http://www.springframework.org/schema/beans"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+		http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context
+		http://www.springframework.org/schema/context/spring-context.xsd">
+    
+    <!-- IMPORTAMOS LA CONFIGURACIÓN DE SPRING-MVC -->
+    <import resource="config-mvc.xml"/>
+    
+    <!-- ESTABLECEMOS EL PAQUETE RAÍZ DONDE SE ENCONTRARÁN NUESTROS COMPONENTES DE SPRING -->
+    <context:component-scan base-package="com.codenaiten.spring"/>
+    
+   <!-- <context:property-placeholder location="classpath:application.properties"/> -->
+    
+</beans>
