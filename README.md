@@ -36,7 +36,7 @@
    	<properties>
        	
        	<spring.version>5.2.0.RELEASE</spring.version>
-       	<servlet.api.version>2.5</servlet.api.version>
+       	<servlet.api.version>3.0.1</servlet.api.version>
        	<jstl.version>1.2</jstl.version>
        	
        	<built.name>spring-web-mvc</built.name>
@@ -65,7 +65,7 @@
    		<!-- https://mvnrepository.com/artifact/javax.servlet/servlet-api -->
    		<dependency>
    		    <groupId>javax.servlet</groupId>
-   		    <artifactId>servlet-api</artifactId>
+   		    <artifactId>javax.servlet-api</artifactId>
    		    <version>${servlet.api.version}</version>
    		    <scope>provided</scope>
    		</dependency>
